@@ -1,0 +1,53 @@
+.home-background{
+	/* background-image: url(../src/img/kot-3840x2160-glaza-19934.jpg);*/
+	background-color:  var(--main);
+	background-position: center;
+	background-repeat: round;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+}
+
+.topbar{
+	background-color: var(--silver);
+}
+/*.opacity{
+	opacity: 50%;
+}*/
+
+.home-content{
+	background-color: var(--silver);
+	color: var(--darkgray);
+	border-radius: 10px;
+	margin: 80px;
+	padding: 5%;
+
+}
+
+.home-content-info{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.home-content-info-photo{
+	padding: 25px 30px;
+
+}
+
+.home-content-info-photo img{
+	border-radius: 25px;
+}
+
+.home-content-info-bio{
+	display: flex;
+
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.home-content-info-bio span{
+	padding: 10px 0px;
+	/*background-color: rgba(51,51,96,0.6);*/
+
+}

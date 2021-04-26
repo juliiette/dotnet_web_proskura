@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ЛР 4</title>
+<link rel="stylesheet" type="text/css" href="../src/colors.css">
+<link rel="stylesheet" type="text/css" href="../src/root.css">
+<script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h2>
+				Звіти з лабораторних робіт
+			</h2>
+			<h2>
+				з дисципліни
+				<span class="title">Технології .Net розробки веб-додатків</span>
+			</h2>
+			<h2>
+			студенток групи ІТ-81: Пиріг Віри, Федчук Олени та Станько Юлії
+			</h2>
+		</div>
+		<div class="topbar flex horizontal-alignment">
+			<a class="topbar-item shadow" href="../index.html">Title</a>
+			<a class="topbar-item shadow" href="1.html">Lab 1</a>
+			<a class="topbar-item shadow" href="2.html">Lab 2</a>
+			<a class="topbar-item shadow" href="3.html">Lab 3</a>
+			<a class="topbar-item shadow active" href="4.html">Lab 4</a>
+			<a class="topbar-item shadow" href="5.html">Lab 5</a>
+			<a class="topbar-item shadow" href="6.html">Lab 6</a>
+			<a class="topbar-item shadow" href="7.html">Lab 7</a>
+			<a class="topbar-item shadow" href="8.html">Lab 8</a>
+			<a class="topbar-item shadow" href="9.html">Lab 9</a>
+		</div>
+		<div class="main">
+            <div id="menu">
+							<div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '1')">Тема, мета та постановка задачі</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '2')">Місце розташування проекту та середовище</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '3')">Проектування структури ПЗ</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '4')">Кодування ПЗ</a>
+                </div>
+
+								<div class="dropdown">
+                	<a class="menu-item flex">Впровадження та супроводження ПЗ</a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '5')">Папка з проектом</a>
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '6')">Запуск .exe файлу</a>
+               		</div>
+                </div>
+
+								<div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '7')">Висновки</a>
+                </div>
+            </div>
+
+
+            <div id="content">
+                <div id="1" class="active-item">
+                    <p class="article_header">1.1 Тема:  ПЕРЕВАНТАЖЕННЯ УНАРНИХ, БІНАРНИХ, ЛОГІЧНИХ ОПЕРАТОРІВ,ОПЕРАТОРІВ ПОРІВНЯННЯ</p>
+                    <p class="article_header">1.2 Мета: придбати практичні навички роботи  реалізації методів перевантаження унарних, бінарних, логічних операторів, операторів порівняння.</p>
+										<p class="article_header">1.3 Постановка задачі:</p>
+										<p>1. Доповнити програмну реалізацію класів методами для перевантаження унарних, бінарних, логічних операторів, операторів порівняння.</p>
+										<p>2. Протестувати програму.</p>
+										<p class="article_header">Перевантаження операторів</p>
+										<p>Перегрузка операторів відбувається в наступних класах:</p>
+										<p>Stock: operator--(Stock):Stock, operator>(Stock, int):bool, operator<(Stock, int):bool - унарний та порівняння</p>
+										<img src="../src/img/lab4/unar_per.jpg"/>
+										<img src="../src/img/lab4/porivn_per.jpg"/>
+
+										<p>Order: operator+(Order, Order):Order - бінарний</p>
+										<img src="../src/img/lab4/binar_per.jpg"/>
+
+										<p>CartOrderItem: operator&(CartOrderItem, int):bool - логічний</p>
+										<img src="../src/img/lab4/logic_per.jpg"/>
+							  </div>
+
+                <div id="2" class="item">
+									<a href="https://github.com/pirogtm7/Veginder">Посилання на репозиторій GitHub</a>
+									<p>Середовище розробки: Visual Studio</p>
+								</div>
+
+                <div id="3" class="item">UML-діаграма класів
+									<img src="../src/img/lab4/uml.jpg"/>
+								</div>
+
+                <div id="4" class="item">
+									<p>4.1 Метод перевантаження унарного оператора</p>
+									<img src="../src/img/lab4/unar_per.jpg"/>
+
+									<p>4.2 Метод перевантаження бінарного оператора</p>
+									<img src="../src/img/lab4/binar_per.jpg"/>
+
+									<p>4.3 Метод перевантаження оператора порівняння</p>
+									<img src="../src/img/lab4/porivn_per.jpg"/>
+
+									<p>Метод перевантаження логічного оператора</p>
+									<img src="../src/img/lab4/logic_per.jpg"/>
+
+									<p>4.4 Файлова структура</p>
+									<img src="../src/img/lab3/bllsolution.jpg"/>
+                </div>
+
+								<div id="5" class="item">Папка з проектом
+									<p>Проект розміщенно на GitHub</p>
+									<a href="https://github.com/pirogtm7/Veginder">Посилання</a>
+								</div>
+
+								<div id="6" class="item">Результат запуску .exe файлу
+									<img src="../src/img/lab3/exe.jpg"/>
+								</div>
+
+								<div id="7" class="item">
+									<p class="article_header">Висновки</p>
+									<p>У ході виконанная даної лабораторної роботи навчились використовувати методи
+										перевантаження унарних, бінарних, логічних та операторів порівняння.</p>
+									<p>Доповнили програмну реалізацію класів методами для перевантаження унарних, бінарних,
+										логічних операторів, операторів порівняння. Протестували програму, шляхом запуску
+										програми, введенням та виведенням значень закритих полів.</p>
+								</div>
+            </div>
+        </div>
+		<div class="footer"></div>
+	</div>
+</html>

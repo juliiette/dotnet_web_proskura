@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ЛР 3</title>
+<link rel="stylesheet" type="text/css" href="../src/colors.css">
+<link rel="stylesheet" type="text/css" href="../src/root.css">
+<script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h2>
+				Звіти з лабораторних робіт
+			</h2>
+			<h2>
+				з дисципліни
+				<span class="title">Технології .Net розробки веб-додатків</span>
+			</h2>
+			<h2>
+			студенток групи ІТ-81: Пиріг Віри, Федчук Олени та Станько Юлії
+			</h2>
+		</div>
+		<div class="topbar flex horizontal-alignment">
+			<a class="topbar-item shadow" href="../index.html">Title</a>
+			<a class="topbar-item shadow" href="1.html">Lab 1</a>
+			<a class="topbar-item shadow" href="2.html">Lab 2</a>
+			<a class="topbar-item shadow active" href="3.html">Lab 3</a>
+			<a class="topbar-item shadow" href="4.html">Lab 4</a>
+			<a class="topbar-item shadow" href="5.html">Lab 5</a>
+			<a class="topbar-item shadow" href="6.html">Lab 6</a>
+			<a class="topbar-item shadow" href="7.html">Lab 7</a>
+			<a class="topbar-item shadow" href="8.html">Lab 8</a>
+			<a class="topbar-item shadow" href="9.html">Lab 9</a>
+		</div>
+		<div class="main">
+            <div id="menu">
+            	<div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '1')">Тема, мета та постановка задачі</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '2')">Місце розташування проекту та середовище</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '3')">Класи та описи властивостей</a>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex">Проектування структури ПЗ</a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '4')"> UML-діаграма класів</a>
+               		</div>
+                </div>
+
+                <div class="dropdown">
+                	<a class="menu-item flex">Кодування ПЗ</a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '5')">Файлова структура проекту</a>
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '6')">Програмний код</a>
+										<a class="submenu-item flex" onclick="ChangeTab(this, '7')">Результат виконання програми</a>
+               		</div>
+                </div>
+
+
+								<div class="dropdown">
+                	<a class="menu-item flex">Впровадження та супроводження ПЗ</a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '8')">Папка з проектом</a>
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '9')">Запуск .exe файлу</a>
+               		</div>
+                </div>
+
+								<div class="dropdown">
+                	<a class="menu-item flex" onclick="ChangeTab(this, '10')">Висновки</a>
+                </div>
+            </div>
+
+
+            <div id="content">
+                <div id="1" class="active-item">
+                    <p>Тема: ВИКОРИСТАННЯ ВЛАСТИВОСТЕЙ.  АВТОМАТИЧНІ ВЛАСТИВОСТІ. СКОРОЧЕНИЙ ЗАПИС ВЛАСТИВОСТЕЙ</p>
+                    <p>Мета: Здійснити введення та виведення даних закритих полів класів, застосовуючі методи-властивості.</p>
+										<p>Постановка задачі:</p>
+										<p>1. Доповнити програмну реалізацію класів методами-властивостями класів, введення та виведення даних закритих полів класів</p>
+										<p>2. Протестувати програму, шляхом запуску програми, введенням та виведенням значень закритих полів.</p>
+							  </div>
+
+                <div id="2" class="item">
+									<a href="https://github.com/pirogtm7/Veginder">Посилання на репозиторій GitHub</a>
+									<p>Середовище розробки: Visual Studio</p>
+								</div>
+
+                <div id="3" class="item">
+									<p>Класи, у яких використовуются  властивості для закритих полів</p>
+									<p>CartOrderClass</p>
+									<img src="../src/img/lab3/cartorderclass.jpg"/>
+									<p>OrderClass</p>
+									<img src="../src/img/lab3/orderclass.jpg"/>
+								</div>
+
+                <div id="4" class="item">UML-діаграма класів
+									<img src="../src/img/lab3/uml.jpg"/>
+								</div>
+
+                <div id="5" class="item">Файлова структура проекту
+									<p>Загальна структура</p>
+									<img src="../src/img/lab3/vegsolution.jpg"/>
+									<p>Структура шару даних</p>
+									<img src="../src/img/lab3/dllsolution.jpg"/>
+									<p>Структура бізнес шару</p>
+									<img src="../src/img/lab3/bllsolution.jpg"/>
+								</div>
+
+								<div id="6" class="item">Програмний код
+									<p>Клас Program</p>
+									<img src="../src/img/lab3/program.jpg"/>
+									<p>Конструктори</p>
+									<img src="../src/img/lab3/payment_constructors.jpg"/>
+									<img src="../src/img/lab3/order_constructor.jpg"/>
+								</div>
+
+								<div id="7" class="item">Результат виконання
+									<img src="../src/img/lab3/exe.jpg"/>
+								</div>
+
+								<div id="8" class="item">Папка з проектом
+									<p>Проект розміщенно на GitHub</p>
+									<a href="https://github.com/pirogtm7/Veginder">Посилання</a>
+								</div>
+
+								<div id="9" class="item">Результат запуску .exe файлу
+									<img src="../src/img/lab3/exe.jpg"/>
+								</div>
+
+								<div id="10" class="item">Висновки
+									<p>У ході виконанная даної лабораторної роботи навчились використовувати властивості
+										та застосовувати скорочений запис властивостей.</p>
+									<p>Також здійнснили введення та виведення даних закритих полів класів, застосовуючи
+										методи-властивості.</p>
+									<p>Доповнили програмну реалізацію класів методами-властивостями класів, введення
+										та виведення даних закритих полів класів. Протестували програму, шляхом запуску
+										програми, введенням та виведенням значень закритих полів.</p>
+								</div>
+            </div>
+        </div>
+		<div class="footer"></div>
+	</div>
+</html>

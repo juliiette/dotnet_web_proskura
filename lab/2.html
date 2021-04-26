@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IТ-81 labs</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../src/colors.css">
+<link rel="stylesheet" type="text/css" href="../src/root.css">
+<script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h2>
+				Звіти з лабораторних робіт
+			</h2>
+			<h2>
+				з дисципліни
+				<span class="title">Технології .Net розробки веб-додатків</span>
+			</h2>
+			<h2>
+            студенток групи ІТ-81: Пиріг Віри, Федчук Олени та Станько Юлії
+			</h2>
+		</div>
+		<div class="topbar flex horizontal-alignment">
+			<a class="topbar-item shadow" href="../index.html">Title</a>
+			<a class="topbar-item shadow" href="1.html">Lab 1</a>
+			<a class="topbar-item shadow active" href="2.html">Lab 2</a>
+			<a class="topbar-item shadow" href="3.html">Lab 3</a>
+			<a class="topbar-item shadow" href="4.html">Lab 4</a>
+			<a class="topbar-item shadow" href="5.html">Lab 5</a>
+			<a class="topbar-item shadow" href="6.html">Lab 6</a>
+			<a class="topbar-item shadow" href="7.html">Lab 7</a>
+			<a class="topbar-item shadow" href="8.html">Lab 8</a>
+			<a class="topbar-item shadow" href="9.html">Lab 9</a>
+		</div>
+		<div class="main">
+            <div id="menu">
+            	<div class="dropdown">
+                	<a class="menu-item flex " onclick="ChangeTab(this, '1')">1 Тема, мета та постановка задачі лабораторної роботи №2.</a>
+                </div>
+                <div class="dropdown">
+                	<a class="menu-item flex">2 Проектування ПЗ</a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">2.1  Проектування структури ПЗ  - UML-діаграма класів</a>
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '3')">2.2  Таблиця класів</a>
+               		</div>
+                </div>
+                <div class="dropdown">
+                	<a class="menu-item flex">3. Кодування (програмування)  </a>
+               	 	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '4')">3.1 Файлова структура проекту</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '5')">3.2 Програмні коди класів з конструкторами</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '6')">3.3 Програмний код класу Program</a>
+
+               		</div>
+                </div>
+                <div class="dropdown">
+                	<a class="menu-item flex">4. Впровадження та супроводження ПЗ</a>
+               	  	<div class="submenu">
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '7')">5.1. Папка з проектом</a>
+                		<a class="submenu-item flex" onclick="ChangeTab(this, '8')">5.2. Запуск ехе-файла</a>
+               		</div>
+                </div>
+            </div>
+
+            <div id="content">
+                <div id="1" class="active-item">
+                    <p style="margin: 0px  0px 0px 40px">Тема: КОНСТРУКТОРИ.МОДИФИКАТОРЫ ДОСТУПУ В C# И UML. ДІАГРАМИ КЛАСІВ. ВІДНОШЕННЯ МІЖ КЛАСАМИ
+                    </p>
+                    <p style="padding: 0  0 0 40px">
+                        Мета: Здійснити об’єктно-орієнтоване проектування з урахуванням модифікаторів доступу в C# и UML і добавлення конструкторів у діаграму класів та реалізація їх у програмному коді. Вивчити особливості використання різних видів конструкторів. Доповнити програму конструкторами різних видів
+                    </p>
+                    <p>
+                    <ul style="list-style-type: none"> Постановка задачі:
+                        <li>1.  Доповнити інтерфейси та реалізації класів методами-конструкторами класів (використати конструктори по умовчанню, ініціалізації (введення значень з клавіатури, завдання їх за виразами та через виклик інших методів-членів класу). </li>
+                        <li>2.  Протестувати програму, демонструючи послідовність викликів конструкторів виведенням на екран повідомлень про створення об’єктів</li>
+                        <li>
+                            <ul style="padding: 0px; list-style-type: none">3.  Продемонструвати створення об’єктів за допомогою різних видів конструкторів:
+                                <li style="padding: 0px 30px">3.1. через ініціалізацію значень атрибутів класів списком аргументів, використовуючи конструктор ініціалізації;</li>
+                                <li style="padding: 0px 30px">3.2. через присвоєння одних об’єктів іншим того самого типу, використовуючи конструктор копіювання;</li>
+                                <li style="padding: 0px 30px">3.3. створення об’єкта за допомогою конструктора за замовчуванням.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    </p>
+
+                </div>
+                <div id="2" class="item">
+						<p>Діаграма класів</p>
+						<img src="../src/img/lab2/class_diagram.jpg" width="80%" height="80%" />
+				</div>
+
+                <div id="3" class="item">
+					<p>Таблиця обґрунтування класів</p>
+                	<img src="../src/img/class1.jpg" width="20%" height="20%"/>
+
+                    <img src="../src/img/class2.png" width="20%" height="20%"/>
+				</div>
+                <div id="4" class="item">
+					Структура проекту
+					<img src="../src/img/lab2/structure.jpg" width="20%" height="20%"/>
+				</div>
+                <div id="5" class="item">
+					Конструктор за замовчуванням:
+					<img src="../src/img/lab2/customer_constructor.jpg" width="20%" height="20%"/>
+
+					Конструктор ініціалізації:
+					<img src="../src/img/lab2/order_constructor.jpg" width="20%" height="20%"/>
+
+					Конструктор за замовчуванням та копіювання:
+					<img src="../src/img/lab2/payment_constructors.jpg" width="20%" height="20%"/>
+				</div>
+				<div id="6" class="item">
+					Код класу Program:
+					<img src="../src/img/lab2/program.jpg" width="20%" height="20%"/>
+				</div>
+				<div id="7" class="item">
+					Проект розміщено на github:
+					https://github.com/pirogtm7/Veginder
+				</div>
+				<div id="8" class="item">
+					Результат відпрацювання програми:
+					<img src="../src/img/lab2/exe.jpg" width="20%" height="20%"/>
+				</div>
+            </div>
+        </div>
+		<div class="footer"></div>
+	</div>
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>
