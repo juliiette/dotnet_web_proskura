@@ -2,7 +2,7 @@
 <html>
 <head> 
 <meta charset="UTF-8"> 
-<title>Something strange</title>
+<title>ЛР 7</title>
 <link rel="stylesheet" type="text/css" href="../src/colors.css">
 <link rel="stylesheet" type="text/css" href="../src/root.css"> 
 <script type="text/javascript" src="../src/script.js"></script>
@@ -17,7 +17,8 @@
 				з дисципліни 
 				<span class="title">Технології .Net розробки веб-додатків</span>
 			</h2>
-			<h2>студенток групи ІТ-81: Пиріг Віри, Федчук Олени та Станько Юлії
+			<h2>
+			студенток групи ІТ-81: Пиріг Віри, Федчук Олени та Станько Юлії
 			</h2>
 		</div>
 		<div class="topbar flex horizontal-alignment">
@@ -34,70 +35,129 @@
 		</div>
 		<div class="main">
             <div id="menu">
-            	<div class="dropdown">
-                	<a class="menu-item flex">1. Характеристика об’єкта автоматизації</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex active-link" onclick="ChangeTab(this, '1')">1.1. Опис об'єкта управління</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">1.2. Мета розробки проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '3')">1.3. Бізнес-задачі</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '4')">1.4. Бізнес-процеси</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '5')">1.5. Сценарії дій системи</a>
-               		</div>
-                </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">2. Об’єктно-орієнтована декомпозиції  предметного середовища</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '6')">2.1. Таблиця обґрунтування класів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '7')">2.2. Таблиця обґрунтування методів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '8')">2.3. Об'єкто-орієнтована декомпозиція предметного середовища</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '9')">2.4. Функціональні вимоги замовника - UML-діаграми</a>
-               		</div>
+                    <a class="menu-item flex" onclick="ChangeTab(this, '1')">Тема, мета та постановка задачі</a>
                 </div>
+
                 <div class="dropdown">
-                	<a class="menu-item flex">3. Проектування ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '10')">3.1. Проектування структури ПЗ  - UML-діаграма класів</a>
-      
-               		</div>
+                    <a class="menu-item flex" onclick="ChangeTab(this, '2')">Місце розташування та середовище розробки</a>
                 </div>
+
                 <div class="dropdown">
-                	<a class="menu-item flex">4. Кодування (програмування)</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '11')"> 4.1. Файлова структура проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '12')">4.2. Специфікації методів у вигляді таблиці з переліком сигнатури методів, семантики методів та їх параметрів</a>
-               		</div>
+                    <a class="menu-item flex" onclick="ChangeTab(this, '3')">Проектування структури ПЗ</a>
                 </div>
+
                 <div class="dropdown">
-                	<a class="menu-item flex">5. Впровадження та супроводження ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '1')">5.1. Папка з проектом</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">5.2. Запуск ехе-файла</a>
-               		</div>
+                    <a class="menu-item flex">Кодування програмного забезпечення</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '4')">Некоректна авторизація</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '5')">Фільтри виключень</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '6')">Обробка масивів</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '7')">Системні виключення</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '8')">Власні виключення</a>
+                    </div>
                 </div>
+
+                <div class="dropdown">
+                    <a class="menu-item flex">Впровадження та супроводження ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '9')">Папка з проектом</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '10')">Запуск .exe файлу</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="menu-item flex" onclick="ChangeTab(this, '11')">Висновки</a>
+               </div> 
             </div>
     
             <div id="content">
-                <div id="1" class="active-item">
-                    <p>Опис предметного середовища</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse omnis officia illum, expedita
-                        velit odit quasi dolore doloribus facilis consequatur quam exercitationem nisi placeat voluptatibus 
-                        molestiae architecto? Ex eius saepe magnam laudantium animi distinctio optio error earum maiores 
-                        quidem quae suscipit quod et deleniti sequi debitis, sint veniam iure hic. Vero, facere nulla 
-                        cupiditate id distinctio impedit. Assumenda dignissimos explicabo amet deserunt asperiores aut 
-                        sapiente dicta adipisci quo mollitia ut quidem recusandae minima accusantium reiciendis illo, sit 
-                        nobis corporis id animi eum ex ducimus! Dolores repellat, ad ut velit sequi maxime odit animi quaerat
-                        impedit praesentium ex repellendus perspiciatis incidunt accusantium dolorem quod odio error illum tenetur ab 
-                        adipisci soluta laboriosam! A sunt quaerat, libero ipsa cumque vel modi minus accusantium sed, fugiat, 
-                        assumenda sint? Quis quaerat eveniet soluta obcaecati vitae! Dolore blanditiis illum explicabo obcaecati
-                        incidunt quia porro. Doloremque nulla sint saepe iste, tenetur odit at eveniet molestiae. 
-                        </p>
-                    <img src="4.jpg"/>
+               <div id="1" class="active-item">
+                    <p class="article_header">1.1 Тема:  ВИКЛЮЧНІ СИТУАЦІЇ.</p>
+                    <p>1.2 Мета: придбати практичні навички роботи з виключними ситуаціями, які виникають при роботі програми.</p>  
+                    <p>1.3 Постановка задачі:</p> 
+                    <p>До програмного коду попередніх лабораторних робіт додати та описати:</p>    
+                    <p>- виключення, яке можуть виникати при некоректній авторизації</p> 
+                    <p>- виключення, з застосуванянм фільтрів виключення;</p> 
+                    <p>- виключення, які виникають при обробці масивів;</p> 
+                    <p>- системні виключення;</p> 
+                    <p>- власні виключення;</p> 
+                    <p>- протестувати програму. Зробити висновки.</p>   
+                    <p>1.4 Використання</p>
+                    <p>Список виключень  які реалізуються у даній лабораторній роботі з описом ціх виключень.</p>
+                    <p>ArgumentException - вызывается при вызове метода и по крайней мере один из переданных аргументов не соответствует спецификации параметра вызываемого метода. Свойство определяет недопустимый аргумент.</p>
+                    <p>АrgumentOutOfRangeException - сли значение аргумента находится вне диапазона допустимых значений.</p>
+                    <p>InvalidCastException - Исключение возникает, если преобразование экземпляра одного типа в другой тип не поддерживается.</p>
+                    <p>NullReferenceException - Исключение возникает при попытке получить доступ к члену для типа, значение которого равно null.</p>
+                    <p>IndexOutOfRangeException - Исключение возникает, когда недопустимый индекс используется для доступа к члену массива или коллекции либо для чтения или записи из определенного расположения в буфере.</p>
+                    <p>AuthException - кастомное, для определения ошибки аутентификации.</p>
+                    <p>DivideByZeroException - Попытка деления целого числа или Decimal числа на ноль</p>
+                    <img src="../src/img/lab7/1.jpg"/>
                 </div>
-                <div id="2" class="item">Загальна постановка задачі програми</div>
-                <div id="3" class="item">Постановка задачі лабораторної роботи №1</div>
-                <div id="4" class="item">Структура документа</div>
-                <div id="5" class="item">Висновок</div>
+
+                <div id="2" class="item">
+                    <a href="https://github.com/pirogtm7/Veginder">Посилання на репозиторій GitHub</a>
+                    <p>Середовище розробки: Visual Studio</p>
+                </div> 
+
+                <div id="3" class="item">UML-діаграма класів
+                    <p>Частина 1 - з абстрактним класом та віртуальним методом</p>
+                    <img src="../src/img/lab5/uml.jpg"/>
+                    <p>Частина 2 - з інтерфейсами</p>
+                    <img src="../src/img/lab5/uml1.jpg"/>
+                </div>
+
+                <div id="4" class="item">Некоректна авторизація
+                    <img src="../src/img/lab7/4.1-1code.jpg"/>
+                    <img src="../src/img/lab7/4.1-1.jpg"/>
+                    <img src="../src/img/lab7/4.1-2.jpg"/>
+                    <img src="../src/img/lab7/4.1-3.jpg"/>
+                </div>  
+
+                 <div id="5" class="item">Фільтри виключень
+                    <img src="../src/img/lab7/4.2-1.jpg"/>
+                    <img src="../src/img/lab7/4.2-2.jpg"/>
+                    <img src="../src/img/lab7/4.2-3.jpg"/>
+                </div>
+
+                <div id="6" class="item">Обробка масивів
+                    <img src="../src/img/lab7/4.2-1.jpg"/>
+                    <img src="../src/img/lab7/4.2-2.jpg"/>
+                    <img src="../src/img/lab7/4.2-3.jpg"/>
+                </div>
+
+                <div id="7" class="item">Системні виключення
+                    <p>InvalidCastException</p>
+                    <img src="../src/img/lab7/4.4-1.jpg"/>
+                    <img src="../src/img/lab7/4.4-2.jpg"/>
+                    <img src="../src/img/lab7/4.4-3.jpg"/>
+
+                    <p>АrgumentOutOfRangeException</p>
+                    <img src="../src/img/lab7/4.4-4.jpg"/>
+                    <img src="../src/img/lab7/4.4-5.jpg"/>
+                </div>
+
+                <div id="8" class="item">Власні виключення
+                    <img src="../src/img/lab7/4.5-1.jpg"/>
+                    <img src="../src/img/lab7/4.5-2.jpg"/>
+                    <img src="../src/img/lab7/4.5-3.jpg"/>
+                </div>
+
+                <div id="9" class="item">Папка з проектом
+                    <p>Проект розміщенно на GitHub</p>
+                    <a href="https://github.com/pirogtm7/Veginder">Посилання</a>
+                </div>
+
+                <div id="10" class="item">Результат запуску .exe файлу
+                    <img src="../src/img/lab6/exe.jpg"/>
+                </div>
+
+                <div id="11" class="item">
+                    <p class="article_header">Висновки</p>
+                    <p>У ході виконанная даної лабораторної роботи навчились створенню та використанню системних та власних виключень.</p>
+                    <p>Доповнили програмну реалізацію власними виключеннями.</p>
+                </div>
+
             </div>
         </div>
 		<div class="footer"></div>
